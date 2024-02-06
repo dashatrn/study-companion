@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="styles.css">
+    <script src= "script.js" defer></script>
+</head>
+<body>
+    <div class= "YAY!">
+        <div class="container">
+            <div class="item item-1"></div>
+            <div class="item item-2"></div>
+            <div class="item item-3"></div>
+            <div class="item item-4"></div>
+            <div class="item item-5"></div>
+
+            <div class="dropdown" data-dropdown>
+                <button class="link" tabindex = 0; data-dropdown-button>Theme</button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-links">
+
+                            <button
+                            id="normal-mode"
+                            class="link link-1"
+                            >Original</button>
+
+
+                            <button
+                            id="dark-mode"
+                            class="link link-2"
+                            >Dark Mode</button>
+
+                            <button
+                            id="light-mode"
+                            class="link link-3"
+                            >Light Mode</button>
+
+                            <button
+                            id="industrial-mode"
+                            class="link link-4"
+                            >Industrial</button>
+                          
+                        </div>
+                    </div>
+                      
+                    <button class= "link add" id="addTodoItem" tabindex = 0; >Add</button>
+                    <button class= "link remove" id="removeTodoItem"tabindex = 0;>Remove</button>
+                    <button class= "link clear" id="clearTodosContent"tabindex = 0;>Clear</button>
+
+
+                    <div class="section-container">
+                        <button id="focus" class="btn btn-timer btn-focus">Focus</button>
+                        <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+                        <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+                        </div>
+                        <div class="time-btn-container">
+                        <span id="time"></span>
+
+
+                        <div class="btn-container">
+                            <button id="btn-start" class="show">Start</button>
+                            <button id="btn-pause" class="hide">Pause</button>
+                            <button id="btn-reset" class="hide">
+                            <i class="fa-solid fa-rotate-right"></i>
+                            </button>
+                        </div>
+                        </div>
+        
+        
+             </div>
+                <div class="everynighticry" id="todoList">
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task" >
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task" >
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task" >
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                                <div class="todo">
+                                    <input class="todo__value" type="text" placeholder="New Task">
+                                    <input class="todo__checkbox" type="checkbox">
+                                </div>
+                    </div>
+                
+
+         
+        </div>
+    </div>
+    <script src= "changetheme.js"></script>
+    <script src= "additem.js"></script>
+    <script src="pomo.js"></script>
+
+</body>
+</html>
+
