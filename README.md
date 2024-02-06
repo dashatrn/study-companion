@@ -33,3 +33,24 @@ Your feedback is invaluable to us. If you have ideas on how we can improve or ad
 
 Thank you for choosing Study Companion Web App as your partner in academic achievement. Let's embark on this journey to success together!
 
+# Repository Structure
+
+```
+study-companion-web-app/
+├── README.md
+├── public/
+│   ├── index.html
+│   └── assets/
+│       └── (images, fonts, etc.)
+├── src/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── additem.js
+│   │   ├── changetheme.js
+│   │   ├── pomo.js
+│   │   └── script.js
+│   └── index.js (or main.js if you have an entry script that imports others)
+└── .gitignore
+```
+
