@@ -25,7 +25,6 @@ Welcome to the Study Companion Web App, your ultimate tool designed to enhance p
 
 ## Support
 
-We're here to support your journey to academic success. If you have any questions, suggestions, or need assistance, please contact our support team at support@studycompanionapp.com.
 
 ## Feedback
 
