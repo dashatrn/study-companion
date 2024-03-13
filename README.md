@@ -23,12 +23,6 @@ Welcome to the Study Companion Web App, your ultimate tool designed to enhance p
 3. **Start a Pomodoro Session**: Use the Pomodoro timer to focus on your tasks.
 4. **Track Your Progress**: Check your study insights regularly to adjust your strategies.
 
-<<<<<<< HEAD
-## Support
-
-
-=======
->>>>>>> ee96d90e436c32bec42869876447de2aaa680893
 ## Feedback
 
 Your feedback is invaluable to us. If you have ideas on how we can improve or add new features to better serve your needs, please let us know through our feedback form available on the app.
